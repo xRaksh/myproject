@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+:root {
+    --heading: rgb(0 10 45);
+    --para: #777777;
+    --para-tint: #e4e4e4;
+    --third: #fff;
+    /* --helper: #8490ff; */
+    --helper: #fa876d;
+    --helper-tint: #f3f4ff;
+    --bg: rgb(249 249 255);
+    --gradient: linear-gradient(0deg, rgb(132 144 255) 0%, rgb(98 189 252) 100%);
+    --shadpw: 0px 0px 20px 0px rgb(132 144 255 / 20%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+    color: var(--heading);
+    font-size: 10rem;
+    font-weight: 600;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+    text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+li {
+    list-style: none;
 }
 
-.App-link {
-  color: #61dafb;
+p {
+    color: var(--para);
+    line-height: 1.6;
+    font-size: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn {
+    background: #0050f1;
+
+    padding: 1.4rem 2rem;
+    border: none;
+    color: rgb(255 255 255);
+    display: inline-block;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    position: relative;
+}
+
+.btn:hover {
+    box-shadow: 0px 20px 20px 0px rgb(132 144 255 / 30%);
+    color: rgb(255 255 255);
+}
+
+.shdo {
+    box-shadow: 0px 0px 28px 17px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 0px 28px 17px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 28px 17px rgba(0, 0, 0, 0.3);
+}
+
+.section {
+    padding:3rem 0;
+}
+
+.container {
+    max-width: 140rem;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    gap: 4rem;
+}
+
+.grid-two-col {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-twocol{
+    grid-template-columns: 100px 550px;
 }

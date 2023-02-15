@@ -1,0 +1,229 @@
+
+.t-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img {
+    border-radius: 5px;
+    width: 250px;
+}
+
+.t-img img {
+    transition: 1s ease;
+}
+
+.t-img img:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
+
+.main-para {
+    margin: 1rem 0;
+    max-width: 70%;
+}
+
+.trust {
+    background: #f74b24;
+    padding: 2rem;
+}
+
+.two h2,
+.two p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.two h2 {
+    font-size: 4rem;
+}
+
+.emojis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 2rem;
+    font-size: 6rem;
+}
+
+.prop h2 {
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.p-img {
+    display: flex;
+    gap: 13rem;
+    border-radius: 9px;
+}
+
+.c-img {
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+.p-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    margin: 3rem;
+}
+
+.review {
+    margin: 4rem 0;
+}
+
+.r-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.r-img img {
+    width: 250px;
+    box-shadow: -1rem -1rem 0rem 0rem var(--helper);
+}
+
+.view {
+    max-width: 70%;
+}
+
+.view h2 {
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+
+.view span {
+    font-size: 4rem;
+}
+
+.bottom {
+    margin-bottom: 6rem;
+}
+
+.b-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.b-img img {
+    border-radius: 7px;
+    height: 250px;
+}
+
+.bottom-data {
+    max-width: 80%;
+}
+
+.bottom-data h2 {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+
+.bottom-data p {
+    max-width: 90%;
+}
+
+.b-btn {
+    display: flex;
+    gap: 3rem;
+    color: white;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+/*  */
+/* ABOUT PAGE */
+/*  */
+
+.about h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.abt {
+    width: 100%;
+    height: 200px;
+}
+
+/*  */
+/* REVIEW PAGE */
+/*  */
+
+
+
+.card {
+    width: 100%;
+    padding: 1rem;
+    -webkit-box-shadow: 0px 5px 57px 11px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0px 5px 57px 11px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 5px 57px 11px rgba(0, 0, 0, 0.16);
+}
+
+.imgR {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.R-view h2 {
+    font-size: 2.5rem;
+}
+
+.R-view span {
+    font-size: 2rem;
+}
+
+.R-view p {
+    font-size: 1.5rem;
+}
+/*  */
+/* CONTACT US */
+/*  */
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact h2{
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.frm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.frm input , textarea{
+    margin: 1rem;
+    font-size: 2rem;
+    width: 50%;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.Gimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
