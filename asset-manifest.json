@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/xRaksh/myproject/static/css/main.b881ab25.css",
+    "main.js": "/xRaksh/myproject/static/js/main.a555cce4.js",
+    "index.html": "/xRaksh/myproject/index.html",
+    "main.b881ab25.css.map": "/xRaksh/myproject/static/css/main.b881ab25.css.map",
+    "main.a555cce4.js.map": "/xRaksh/myproject/static/js/main.a555cce4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b881ab25.css",
+    "static/js/main.a555cce4.js"
+  ]
+}
